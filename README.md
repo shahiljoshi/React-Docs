@@ -19,7 +19,7 @@ Virtual DOM: React creates a virtual dom, i.e., in-memory data -structure cache.
 Javascript Expressions: JS expressions can be used in the jsx files using curly brackets, for example {}.
 
 
-#What are Components in ReactJS?
+# What are Components in ReactJS?
 Components are like pure javascript functions that help make the code easy by splitting the logic into reusable independent code.
 
 A piece of code that we can reuse by importing it
@@ -28,7 +28,7 @@ A piece of code that we can reuse by importing it
 Simply In Statefull we use state and in Stateless we don't.
 
 
-##Components as functions:
+## Components as functions:
     
     import React from 'react';
     import ReactDOM from 'react-dom';
@@ -54,7 +54,7 @@ Let us now use this component in index.js file as shown below:
         document.getElementById('root')
     );
 
-##Class as Component:
+## Class as Component:
 Here is a ReactJS example that uses a class as a component.
 
 test.js
@@ -81,7 +81,7 @@ index.js
         document.getElementById('root')
     ); 
 
-#What is a State in ReactJS?
+# What is a State in ReactJS?
 A state is a javascript object similar to props that have data to be used with the reactjs render. The state data is a private object and is used within components inside a class.
 
 
@@ -117,10 +117,10 @@ index.js
     );  
 
 
-#What are Props in ReactJS?
+# What are Props in ReactJS?
 Props are properties to be used inside a component. They act as global object or variables which can be used inside the Component.
 
-##Props to Function Component
+## Props to Function Component
 Here is an example of passing props to a function component.
 
     import React from 'react';
@@ -145,7 +145,7 @@ index.js
         document.getElementById('root')
     ); 
 
-##Props to Class Component
+## Props to Class Component
 To access the props in a class we can do it as follows:
 
 test.jsx
@@ -170,7 +170,7 @@ The msg attribute is passed to the component in index.js as follows:
     document.getElementById('root')
     ); 
 
-#Life Cycle of a Component
+# Life Cycle of a Component
 A component life cycle is divided into Initialization, Mounting, Update, and UnMounting stages.
 
 Here is a detail explanation about each Component.
@@ -202,12 +202,12 @@ Following are the methods available in update state:
 \
 **UnMounting**: this state comes into the picture when the Component is not required or removed.
 
-#JSX
+# JSX
 Jsx is shorthand for Js Xml its allows html code inside javascript code directly
 
 
 
-#Real Dom vs Virtual Dom
+# Real Dom vs Virtual Dom
 - Updates Slow / Update Faster
 - Directly Update Html / Can't Update Directly
 - Create A New DOM on Element Update / Update JSX If Element Update(reconstruct)
